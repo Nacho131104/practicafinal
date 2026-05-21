@@ -1,0 +1,29 @@
+
+
+
+.headerContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    color: black;
+}
+
+
+.Link{
+    background-color: rgb(80, 78, 78);
+    cursor: pointer;
+    color: rgb(250, 245, 245);
+    border-radius: 5px;
+}
+
+.Link:hover{
+    color: black;
+    background-color:white
+}
+
+
+.headerContainer button {
+    background-color: red;
+    color: black; 
+    cursor: pointer;
+}

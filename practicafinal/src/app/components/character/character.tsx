@@ -12,7 +12,7 @@ const CharacterComponent = ({character}:{character:Character}) =>{
             <img src={character.image} alt={character.name}/>
             <p>Gender: {character.gender}</p>
             <p>Specie: {character.species}</p>
-            <button >Ver mas</button>
+            <button onClick={()=>router.push(`/character/${character.id}`)}>Ver mas</button>
         </div>
     )
 }

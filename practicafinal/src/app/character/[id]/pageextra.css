@@ -1,6 +1,5 @@
 
-
-.characterContainer {
+.ContainerExtra {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,11 +7,10 @@
     background-color: aqua;
     color:black;
     border-radius: 20px;
-    padding: 20px 30px;
     gap: 20px;
 }
 
-.characterContainer button {
+.ContainerExtra button {
     background-color: red;
     color: white;
     cursor: pointer;

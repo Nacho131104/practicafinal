@@ -16,7 +16,6 @@ const CharacterPage = () =>{
 
     const fetchCharacters = async()=>{
         try{
-
             await api.get(`/character/?page=${page}`).then((e)=>{
                 setCharactersData(e.data)
             }).finally(()=>{
@@ -37,7 +36,7 @@ const CharacterPage = () =>{
             
             {charactersData && charactersData.results.map((c)=>{
                 return (
-                    < CharacterComponent key={c.id} character={c}></CharacterComponent>
+                    <CharacterComponent key={c.id} character={c}></CharacterComponent>
                 )
             })}
             {error && <p>Error: {error}</p>}

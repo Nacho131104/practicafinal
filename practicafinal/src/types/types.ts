@@ -25,6 +25,6 @@ export type Character = {
     location: string [],
     image: string,
     episode: string [],
-
+    url: string,
 }
 

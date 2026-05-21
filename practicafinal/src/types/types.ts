@@ -12,7 +12,7 @@ export type Info ={
     count: number,
     pages: number,
     next: string,
-    previous: string,
+    prev: string,
 }
 
 export type Character = {

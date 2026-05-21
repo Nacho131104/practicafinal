@@ -42,7 +42,7 @@ const CharacterPage = () =>{
             })}
             {error && <p>Error: {error}</p>}
 
-            <Paginador next={!!charactersData?.info.next} previous={!!charactersData?.info.previous} page={page} setPage={(e)=>setPage(e)}></Paginador>
+            <Paginador next={!!charactersData?.info.next} previous={!!charactersData?.info.prev} page={page} setPage={(e)=>setPage(e)}></Paginador>
 
         </div>
     )

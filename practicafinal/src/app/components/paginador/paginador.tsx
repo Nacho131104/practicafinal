@@ -4,9 +4,9 @@ const Paginador = ({next,previous,page,setPage}:{next:boolean, previous:boolean,
 
     return (
         <div className="paginadorContainer">
-            {previous && <button onClick={()=>{setPage(page-1)}} > {"<-"}</button>}
+            {previous && <button onClick={(e)=>{setPage(page-1)}} > {"<-"}</button>}
             <p>{page}</p>
-            {next && <button onClick={()=>{setPage(page+1)}} > {"->"}</button>}
+            {next && <button onClick={(e)=>{setPage(page+1)}} > {"->"}</button>}
         </div>
     )
 }
